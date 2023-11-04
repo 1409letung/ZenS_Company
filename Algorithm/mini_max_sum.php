@@ -20,8 +20,8 @@ function mini_max_sum($arr)
         $sum_max = $sum - $min;
     }
 
-    echo $sum_min . ' ' . $sum_max;
+    return $sum_min . ' ' . $sum_max;
 }
 
 $arr = array(1, 2, 3, 4, 5);
-mini_max_sum($arr);
+echo mini_max_sum($arr);
