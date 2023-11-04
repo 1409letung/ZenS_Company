@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@200;300&family=Roboto:wght@100;400&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 1285px;
+        height: auto;
+        background: #ffffff;
+    }
+
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .header img,
+    .header .user {
+        float: left;
+    }
+
+    .header .user .username,
+    .header .user img {
+        float: left;
+    }
+
+    .header .img {
+        padding-top: 15px;
+        margin-left: 260px;
+    }
+
+    .header .user {
+        padding-top: 0px;
+        margin-left: 570px;
+    }
+
+    .header .user .username {
+        margin-right: 5px;
+    }
+
+    .header .user .username i {
+        color: darkgray;
+    }
+
+    .header .user .username p {
+        text-align: right;
+    }
+
+    .header .user img {
+        border-radius: 30px;
+    }
+
+    .joke {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background: #29b363;
+        color: #ffffff;
+    }
+
+    .joke h1 {
+        padding-top: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .joke p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+
+    .vote {
+        width: 100%;
+        height: 350px;
+        margin-top: -50px;
+        background: #fcfcfc;
+    }
+
+    .vote p.excerpts {
+        width: 61%;
+        padding-top: 65px;
+        padding-left: 300px;
+        font-family: 'Roboto', sans-serif;
+        color: #696969;
+    }
+
+    .vote hr {
+        width: 650px;
+        margin-top: 30px;
+        margin-left: 360px;
+    }
+
+    .funny {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    form {
+        padding-left: 70px;
+    }
+
+    .funny input {
+        flex: 1;
+    }
+
+    .funny input+input {
+        margin-left: 25px;
+    }
+
+    input.yes-funny {
+        width: 250px;
+        height: 50px;
+        background: #2c7edb;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        border-bottom: #4169E1 solid 2px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    input.no-funny {
+        width: 250px;
+        height: 50px;
+        border: none;
+        background: #29b363;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        border-bottom: #228B22 solid 2px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    hr {
+        margin-top: 0px;
+        background-color: #C0C0C0;
+    }
+
+    .footer {
+        margin-top: -16px;
+        text-align: -webkit-center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer p.owner {
+        height: 17px;
+        width: 65%;
+        padding-top: 35px;
+        color: #C0C0C0;
+    }
+
+    .footer p.cpr {
+        padding-top: 25px;
+        color: #696969;
+    }
+
+    .success{
+
+        color: #228B22;
+        border-radius: 10px;
+        text-align: center;
+    }
